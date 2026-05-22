@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Condiment&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BAT SOUND V1.0</title>
   <style>
-    body { font-family: 'Condiment', cursive; background: #222; color: #ff00ff; text-align: center; padding: 20px; }
+    body { font-family: 'Condiment'; background: #222; color: #ff00ff; text-align: center; padding: 20px; }
     .soundboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; max-width: 800px; margin: 0 auto; }
+    .condiment-regular {
+    font-family: "Condiment", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
+
     button { 
       padding: 20px; 
       font-size: 18px; 
       background: #000; 
       color: #ff00ff; 
-      border: none; 
+      border: #ff00ff; 
       border-radius: 8px; 
       cursor: pointer;
       transition: all 0.2s;
     }
-    button:hover { background: #ff77ff; transform: scale(1.05); }
+    button:hover { background: #313131; transform: scale(1.05); }
     button:active { background: #5f005f; }
   </style>
 </head>
